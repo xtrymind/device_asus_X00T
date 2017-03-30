@@ -28,6 +28,10 @@
 #
 
 on init
+    # start qseecomd early as we mount system/ vendor/ early
+    # vold needs keymaster that needs qseecomd
+    start vendor.qseecomd
+
     # Set boottime stune value
     write /dev/stune/schedtune.prefer_idle 1
     write /dev/stune/schedtune.boost 100
@@ -54,17 +58,33 @@ on init
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
-    mount_all /vendor/etc/fstab.qcom
+
+    mount_all /vendor/etc/fstab.qcom --early
     swapon_all /vendor/etc/fstab.qcom
     chown root system /mnt/vendor/persist
     chmod 0771 /mnt/vendor/persist
     mkdir /mnt/vendor/persist/data 0700 system system
     mkdir /mnt/vendor/persist/bms 0700 root system
     restorecon_recursive /mnt/vendor/persist
+
+on late-fs
     write /sys/kernel/boot_adsp/boot 1
+    # Start services for bootanim
+    start surfaceflinger
+    start bootanim
+    start vendor.hwcomposer-2-1
+    start vendor.configstore-hal
+    start vendor.gralloc-2-0
+
+    # Wait for hwservicemanager ready since fsck might be triggered in mount_all --late
+    # In such case, init won't responce the property_set from hwservicemanager and then
+    # cause services for bootanim not running.
+    wait_for_prop hwservicemanager.ready true
+
+    # Mount RW partitions which need run fsck
+    mount_all /vendor/etc/fstab.qcom --late
 
 on post-fs
-    start vendor.qseecomd
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
 
