@@ -180,6 +180,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.autosuspend.timeout=500000 \
     vendor.power.pasr.enabled=true
 
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=1
+
 # Play store
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase.ms=android-asus-tpin \
