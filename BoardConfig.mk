@@ -223,6 +223,7 @@ TARGET_PER_MGR_ENABLED := true
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
+TARGET_TAP_TO_WAKE_NODE := "/sys/kernel/touchpanel/dclicknode"
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
