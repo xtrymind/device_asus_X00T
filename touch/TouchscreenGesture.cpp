@@ -31,13 +31,13 @@ typedef struct {
 
 // id -> info
 const std::unordered_map<int32_t, GestureInfo> kGestureInfoMap = {
-    {0, {249, "Gesture C"}},
-    {1, {250, "Gesture e"}},
-    {2, {251, "Gesture S"}},
-    {3, {252, "Gesture V"}},
-    {4, {253, "Gesture W"}},
-    {5, {254, "Gesture Z"}},
-    {6, {255, "Gesture Swipe Up"}},
+    {0, {46, "Letter C"}},
+    {1, {18, "Letter e"}},
+    {2, {31, "Letter S"}},
+    {3, {47, "Letter V"}},
+    {4, {17, "Letter W"}},
+    {5, {44, "Letter Z"}},
+    {6, {103, "Gesture Swipe Up"}},
 };
 }  // anonymous namespace
 
