@@ -196,11 +196,6 @@
         <item>"bt-pan"</item>
     </string-array>
 
-    <!-- When true, the tethering upstream network follows the current default
-         Internet network (except when the current default network is mobile,
-         in which case a DUN network will be used if required). -->
-    <bool translatable="false" name="config_tether_upstream_automatic">true</bool>
-
     <!-- Dhcp range (min, max) to use for tethering purposes -->
     <!-- USB is  192.168.42.1 and 255.255.255.0
          Wifi is 192.168.43.1 and 255.255.255.0
@@ -434,7 +429,7 @@
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
-   
+
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
