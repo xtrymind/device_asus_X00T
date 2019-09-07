@@ -2,7 +2,7 @@
 /(vendor|system/vendor|system)/bin/nvram_btwifi                         u:object_r:nvram_btwifi_exec:s0
 
 # Keylayout
-/(vendor|system/vendor)/usr/keylayout(/.*)?                             u:object_r:keylayout_file:s0
+/(system/)?vendor/usr/keylayout(/.*)?                                   u:object_r:vendor_keylayout_file:s0
 
 # Sensors
 /sys/devices/virtual/input/input[0-9]+/stk3x1x-proximity(/.*)?          u:object_r:sysfs_sensors:s0
