@@ -843,12 +843,12 @@ vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/lib/libcpion.so
 vendor/lib/libhdcpsrm.so
-vendor/lib/liboemcrypto.so|8b642ba247016a4d5efd1a430249b5b6463d9f61
+vendor/lib/liboemcrypto.so
 vendor/lib/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libcpion.so
 vendor/lib64/libhdcpsrm.so
-vendor/lib64/liboemcrypto.so|bea4bf53917c5b6f91c9af8dd62703d2b5ff36ed
+vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvhidl.so
 
 # ESE-Powermanager
