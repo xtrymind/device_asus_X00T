@@ -239,6 +239,3 @@ ro.vendor.qti.config.zram=true
 
 # Leds
 persist.asus.led.on=1
-
-# QC location
-persist.vendor.overlay.izat.optin=rro
