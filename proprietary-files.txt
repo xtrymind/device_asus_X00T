@@ -743,7 +743,6 @@ vendor/lib64/libcne.so|1344c4749026a55eee9e3a814c7a71b6733e08fb
 vendor/lib64/libcneapiclient.so|a99c0ebb180bca17ed05c2ac348ee8e16227a5a3
 vendor/lib64/libcneoplookup.so|99dbc1b2ae37181ae49a72d581fe53abe8207c42
 vendor/lib64/libcneqmiutils.so|f2fc09230fdf877020f734451c13a6adb749838d
-vendor/lib64/libmmosal_proprietary.so|b8dbc765c15f30dec9f1c0907a25810df1bc9731
 vendor/lib64/libwms.so|19a39c776120515292dc821599cf504a5fd600b3
 vendor/lib64/libwqe.so|e762bb803cdb4fa55224df58e06c3a5bca5f36a7
 vendor/lib64/libxml.so|9fa23668a2ab5fb0aff7e694fe44fb050b20f83d
@@ -1403,9 +1402,11 @@ vendor/bin/wifidisplayhalservice|845b5e359d006ecb3a4c3bd72841be0ff081754d
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|04e463342cbba4c0e9c311a18238f95dec9359fd
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so|b8c2f8054277b327ec1cc4dafdc727f9e07956f5
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|882569a70daed88c55a717454a98483a9924c533
+vendor/lib/libmmosal_proprietary.so|dfa0b9751df0a52ffd69e00af463ad65f54c01e5
 vendor/lib/libwfdcommonutils_proprietary.so|fefd94630199dbcb8ffc522eb2f02fdeed0ace65
 vendor/lib/libwfdhaldsmanager.so|9411565d99b6340d36d2cbca7f00d136106b21e6
 vendor/lib/libwfdhdcpcp.so|b51d6cd0ed7838200a0fc5e93144a8352922d2a9
 vendor/lib/libwfdmmservice.so|ae4e690dfda60111d3cd61259ccf13a9c562beb2
 vendor/lib/libwfdmodulehdcpsession.so|85c76302658c3bbd9c35ea4d4b2e6ffba08b770e
 vendor/lib64/libwfdhdcpcp.so|03c05652a41db0709effacc6d8cea627fb2492f4
+vendor/lib64/libmmosal_proprietary.so|b8dbc765c15f30dec9f1c0907a25810df1bc9731
