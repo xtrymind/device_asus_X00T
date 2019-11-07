@@ -1075,7 +1075,7 @@ vendor/lib64/libgpustats.so
 
 # NVRAM
 bin/nvram_btwifi
-lib64/libmmi.so
+lib64/libmmi.so|3e31962ef4499cf68239a907c9e201ba5f0f38d7
 
 # Perf
 vendor/bin/energy-awareness
