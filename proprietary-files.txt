@@ -102,14 +102,14 @@ vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
-vendor/lib64/libbt-hidlclient.so
-vendor/lib64/libbtnv.so
+# Bluetooth - from DRG - QKQ1.190828.002
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|57a0a575a2b1b96176fda1bcb84ea8371c4070d1
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|15d5841dd4f2fc27a58fe5a71b80afefcaa1cf7d
+vendor/lib64/libbt-hidlclient.so|4a4038013bf438627154899d3823c9346c3d84ec
+vendor/lib64/libbtnv.so|afa8f54b606c1c23ba598d8f85581c219a627eee
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9346946b110086a6b473c8226e072e9a0cdbb87e
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|c51214b092f7e47c2d21989a605c4a8c7e7b85eb
 
 # Camera
 vendor/lib/hw/camera.sdm660.so
