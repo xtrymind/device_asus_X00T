@@ -103,6 +103,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.bt.max.hs.connections=2 \
     persist.vendor.bluetooth.modem_nv_support=true \
     persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac \
+    ro.vendor.bluetooth.wipower=false \
     vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
@@ -170,7 +171,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     persist.vendor.qcomsysd.enabled=1 \
     ro.additionalbutton.operation=0 \
-    sys.autosuspend.timeout=500000
+    sys.autosuspend.timeout=500000 \
+    vendor.power.pasr.enabled=true
 
 # Play store
 PRODUCT_PROPERTY_OVERRIDES += \

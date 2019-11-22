@@ -21,7 +21,7 @@ DEVICE_PROVISIONED=1
 # Set network mode to (T/L/G/W/1X/EVDO, T/G/W/L) for 7+5 mode device on DSDS mode
 #
 ro.telephony.default_network=20,20
-
+debug.sf.recomputecrop=0
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 debug.sf.latch_unsignaled=1
@@ -101,8 +101,8 @@ telephony.lteOnCdmaDevice=1
 persist.fuse_sdcard=true
 
 #system prop for wipower support
-ro.bluetooth.emb_wp_mode=true
-ro.bluetooth.wipower=true
+ro.bluetooth.emb_wp_mode=false
+ro.bluetooth.wipower=false
 
 #
 #snapdragon value add features
