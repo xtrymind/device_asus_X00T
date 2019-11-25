@@ -53,6 +53,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Audio feature flags
 PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.audio.feature.a2dp_offload.enable=false \
     vendor.audio.feature.afe_proxy.enable=true \
     vendor.audio.feature.anc_headset.enable=true \
     vendor.audio.feature.battery_listener.enable=false \
@@ -85,7 +86,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.record_play_concurency.enable=false \
     vendor.audio.feature.src_trkn.enable=true \
     vendor.audio.feature.spkr_prot.enable=true \
-    vendor.audio.feature.ssrec.enable=true \
+    vendor.audio.feature.ssrec.enable=false \
     vendor.audio.feature.usb_offload.enable=true \
     vendor.audio.feature.usb_offload_burst_mode.enable=false \
     vendor.audio.feature.usb_offload_sidetone_volume.enable=false \
