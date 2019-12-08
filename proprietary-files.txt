@@ -1383,11 +1383,11 @@ vendor/lib64/libthermalioctl.so
 vendor/bin/time_daemon|d5b056eeda44237d7511083b402b2747dbc707e1
 vendor/lib64/libtime_genoff.so|c8e0bbc9c6b7b5beddba43bc4125a9eaeba7c79f
 
-# Universal Bandwidth Compression (UBWC)
-vendor/lib/libstreamparser.so
-vendor/lib/libUBWC.so
-vendor/lib64/libstreamparser.so
-vendor/lib64/libUBWC.so
+# Universal Bandwidth Compression (UBWC) - from DRG - QKQ1.190828.002
+vendor/lib/libUBWC.so|261c253ba9322042913994948c7bb9c53ff1f6c6
+vendor/lib/libstreamparser.so|71d185a8497538b9dfc29f8bdbd3571f638738f4
+vendor/lib64/libUBWC.so|40033e998b8a557b490a775ec0dda3758bcf301d
+vendor/lib64/libstreamparser.so|59c328f0c093f89779eaf6574dde312b202ac407o
 
 # Widevine firmware
 vendor/firmware/widevine.b00
