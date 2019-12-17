@@ -81,7 +81,7 @@ void vendor_check_variant()
     product_name = "WW_X00TD";
 
     // build fingerprint
-    build_fingerprint = "asus/WW_X00TD/ASUS_X00T_2:9/PKQ1/16.2017.1910.059-20190920:user/release-keys";
+    build_fingerprint = "asus/WW_X00TD/ASUS_X00T_2:9/PKQ1/16.2017.1912.060-20191125:user/release-keys";
     product_device = "ASUS_X00T_2";
 
     // Product model overrides
