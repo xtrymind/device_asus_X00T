@@ -65,7 +65,7 @@ caps: NET_BIND_SERVICE
 mode: 0755
 user: AID_SYSTEM
 group: AID_SYSTEM
-caps: NET_BIND_SERVICE
+caps: NET_BIND_SERVICE SYS_BOOT
 
 [system/vendor/bin/cnd]
 mode: 0755
@@ -113,7 +113,7 @@ caps: NET_BIND_SERVICE
 mode: 0755
 user: AID_SYSTEM
 group: AID_SYSTEM
-caps: NET_BIND_SERVICE
+caps: NET_BIND_SERVICE SYS_BOOT
 
 [system/vendor/bin/slim_daemon]
 mode: 0755
@@ -173,7 +173,7 @@ caps: NET_BIND_SERVICE
 mode: 0755
 user: AID_SYSTEM
 group: AID_SYSTEM
-caps: NET_BIND_SERVICE
+caps: NET_BIND_SERVICE SYS_BOOT
 
 [vendor/bin/sensors.qti]
 mode: 0755
@@ -204,4 +204,3 @@ mode: 0771
 user: AID_SYSTEM
 group: AID_SYSTEM
 caps: 0
-
