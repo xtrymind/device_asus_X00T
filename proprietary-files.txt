@@ -869,15 +869,19 @@ vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.factory@1.0-impl.so
 
 # Fingerprint sensor
-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+etc/permissions/asus.hardware.fingerprint_earlywakeup.xml
+product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+product/lib/vendor.qti.hardware.fingerprint@1.0.so
+product/lib64/vendor.qti.hardware.fingerprint@1.0.so
 -vendor/app/QFingerprintService/QFingerprintService.apk
 vendor/bin/qfp-daemon
 vendor/etc/permissions/qti_fingerprint_interface.xml
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/hw/cdfinger.default.so
 vendor/lib64/hw/cdfinger.fingerprint.default.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 
 # FM - from lavender - QKQ1.190910.002
 lib/fm_helium.so|feb4819f1898c67dfda4f965d7cc2711c74d1a99
