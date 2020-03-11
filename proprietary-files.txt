@@ -1363,14 +1363,14 @@ vendor/lib64/sensors.native.so
 vendor/lib64/sensors.ssc.so
 
 # Sensors calibration
--framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+-product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
+product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/etc/calmodule.cfg
 vendor/lib/libcalmodule_common.so
 vendor/lib/sensor_calibrate.so
-vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/lib64/libcalmodule_common.so
 vendor/lib64/sensor_calibrate.so
-vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Signed graphics firmware
 vendor/firmware/cppf.b00
