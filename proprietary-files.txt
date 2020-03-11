@@ -1419,8 +1419,8 @@ vendor/firmware/widevine.b06
 vendor/firmware/widevine.b07
 vendor/firmware/widevine.mdt
 
-# Wi-Fi - from lake - QPW30.61-18/d18e
-vendor/bin/cnss-daemon|b0f06d02b12a0344d29fc5a6d40e66f471f89382
+# Wi-Fi
+vendor/bin/cnss-daemon
 
 # WiFi Display - from mata - QP1A.190711.148
 bin/wfdservice|6ce4bf76af16cfd1a4bcd47c0231ed13f4e7a291
