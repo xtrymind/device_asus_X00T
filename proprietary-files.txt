@@ -851,7 +851,7 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvhidl.so
 
 # ESE-Powermanager
-lib64/vendor.qti.esepowermanager@1.0.so
+product/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
 vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
