@@ -180,12 +180,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.autosuspend.timeout=500000 \
     vendor.power.pasr.enabled=true
 
-#Noril
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.radio.noril=1 \
-    ro.radio.noril=1 \
-    ro.vendor.radio.noril=1
-
 # Play store
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase.ms=android-asus-tpin \
