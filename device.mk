@@ -316,9 +316,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay-lineage/lineage-s
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
-
 # Pre-opt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 

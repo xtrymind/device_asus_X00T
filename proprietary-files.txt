@@ -1096,7 +1096,6 @@ vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/bin/msm_irqbalance
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perf-profile0.conf
 vendor/etc/perf/perfboostsconfig.xml|bb0107ae5526cb67059da5e1c404e2fa9a80ad36
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
