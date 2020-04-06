@@ -81,8 +81,8 @@ on early-boot
     chown system system /persist/sensors/registry/config
     chmod 0664 /persist/sensors/sensors_settings
 
-    chown system system /dev/input/event3  # stk3x3x-light
-    chown system system /dev/input/event4  # stk3x3x-proximity
+    chown system system /dev/input/event4  # stk3x3x-light
+    chown system system /dev/input/event5  # stk3x3x-proximity
 
     chown system system /mnt/vendor/persist/sensors
     chown system system /mnt/vendor/persist/sensors/sns.reg
