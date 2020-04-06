@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="screen.on">68</item>
-    <item name="screen.full">268</item>
+    <item name="screen.on">63</item>
+    <item name="screen.full">261</item>
     <item name="bluetooth.active">51.5</item>
     <item name="bluetooth.on">4.76</item>
-    <item name="wifi.on">3.78</item>
-    <item name="wifi.active">135.27</item>
-    <item name="wifi.scan">84</item>
+    <item name="wifi.on">0.1</item>  <!-- ~3mA -->
+    <item name="wifi.active">95</item>  <!-- WIFI data transfer, ~200mA -->
+    <item name="wifi.scan">1.28</item>  <!-- WIFI network scanning, ~100mA -->
     <item name="radio.active">38.30</item>
     <item name="radio.scanning">6</item>
     <array name="radio.on">
@@ -45,10 +45,24 @@
         <value>155</value>
         <value>193</value>
     </array>
-    <item name="cpu.suspend">5</item>
-    <item name="cpu.idle">2</item>
+    <item name="cpu.suspend">0.1</item>
+    <item name="cpu.idle">1.6</item>
     <item name="cpu.active">2</item>
     <item name="cpu.cluster_power.cluster0">2</item>
     <item name="cpu.cluster_power.cluster1">2</item>
+    <item name="wifi.controller.idle">1</item>
+    <item name="wifi.controller.rx">95</item>
+    <item name="wifi.controller.tx">123</item>
+    <array name="wifi.controller.tx_levels">1 <!-- mA -->
+    </array>
+    <item name="wifi.controller.voltage">3700</item>
+
+    <array name="wifi.batchedscan"> <!-- mA -->
+        <value>.0001</value> <!-- 1-8/hr -->
+        <value>.001</value>  <!-- 9-64/hr -->
+        <value>.01</value>   <!-- 65-512/hr -->
+        <value>.1</value>    <!-- 513-4,096/hr -->
+        <value>1</value>    <!-- 4097-/hr -->
+    </array>
     <item name="battery.capacity">5000</item>
 </device>
